@@ -274,7 +274,7 @@ export default function Home() {
                     alt="document-icon"
                     height={50}
                     width={50}
-                    className="h-15 w-15 rounded-full"
+                    className="h-15 w-15 rounded-full p-2"
                   />
                   <div className="flex flex-col">
                     <h3 className="text-sm font-semibold text-[#e8dcc8]">

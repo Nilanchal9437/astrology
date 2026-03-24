@@ -277,29 +277,8 @@ export default function Home() {
           </div>
         </Container>
       </div>
-
-      {/* Lower feature cards */}
       <div className="relative">
-        <div className="hidden md:block absolute -left-2 top-[-18px] w-[310px] select-none rounded-xl border border-white/10 bg-[#060f22]/80 p-3 text-xs text-[#e8dcc8]/80 shadow-[0_18px_55px_rgba(0,0,0,0.45)] backdrop-blur mt-10">
-          <div className="flex items-start gap-3">
-            <div className="grid h-10 w-10 place-items-center rounded-lg border border-white/10 bg-white/5 text-[#f5d06c]">
-              E
-            </div>
-            <div className="min-w-0">
-              <div className="truncate">
-                <span className="font-semibold text-[#e8dcc8]">Emma</span> from
-                Sydney purchased{" "}
-                <span className="font-semibold text-[#f5d06c]">Leo</span> Full
-                Report
-              </div>
-              <div className="mt-1 text-[11px] text-[#e8dcc8]/55">
-                2 minutes ago
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative bg-[#071226]/55 w-full h-full">
+        <div className="bg-[#071226]/55 w-full h-full">
           <Container className="py-5">
             <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4 lg:max-w-4xl mx-auto">
               <div className="p-5">
@@ -342,6 +321,26 @@ export default function Home() {
               </div>
             </div>
           </Container>
+        </div>
+      </div>
+      {/* Lower feature cards */}
+      <div className="hidden md:block absolute left-2 bottom-[-135px] w-[310px] rounded-xl border-2 border-white/80 bg-white/10 px-3 py-4 backdrop-blur mt-10">
+        <div className="flex items-start gap-3">
+          <div className="grid h-10 w-15 place-items-center rounded-full border-2 border-white/80 font-semibold text-[#FFFFFF]">
+            E
+          </div>
+          <div className="min-w-0">
+            <div className="truncate text-white">
+              <span className="font-semibold text-white">Emma</span> from{" "}
+              <span className="font-semibold text-white">
+                Sydney purchased{" "}
+              </span>{" "}
+              <span className="font-semibold  text-white">Leo</span> Full Report
+            </div>
+            <div className="mt-1 text-[11px] text-sm text-white">
+              2 minutes ago
+            </div>
+          </div>
         </div>
       </div>
     </main>

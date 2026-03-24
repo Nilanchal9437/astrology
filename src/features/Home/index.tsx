@@ -41,7 +41,7 @@ export default function Home() {
     <main className="bg-cover bg-no-repeat bg-center bg-[url('/mobile-space-bg.png')] md:bg-[url('/space-bg.png')] h-[100%]">
       {/* Rotating "fire ring" + wheel behind the form */}
       <div className="pointer-events-none rounded-full absolute left-1/2 top-[10px] z-0 -translate-x-1/2">
-        <div className="relative h-[265px] w-[265px] sm:h-[420px] sm:w-[420px] md:h-[600px] md:w-[600px]">
+        <div className="relative h-[265px] w-[265px] md:h-[550px] md:w-[550px] xl:h-[600px] xl:w-[600px]">
           {/* Inner glow */}
           <div className="absolute top-[25vh] md:top-[14vh]  inset-10 z-5 rounded-full bg-[radial-gradient(circle_at_center,rgba(245,208,108,0.62),transparent_65%)] blur-[8px] opacity-90" />
           {/* eslint-disable-next-line @next/next/no-img-element */}

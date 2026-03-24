@@ -276,15 +276,20 @@ export default function Home() {
                     width={50}
                     className="h-15 w-15 rounded-full"
                   />
-                  <h3 className="text-sm font-semibold text-[#e8dcc8]">
-                    Personalized Report
-                  </h3>
+                  <div className="flex flex-col">
+                    <h3 className="text-sm font-semibold text-[#e8dcc8]">
+                      Personalized Report
+                    </h3>
+                    <p className="text-xs leading-5 text-[#e8dcc8]/65">
+                      Inter Regular
+                    </p>
+                  </div>
                 </div>
-                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65 pl-3">
+                <p className="text-xs leading-5 text-[#e8dcc8]/65 pl-3">
                   Detailed analysis of your birth chart, uncovering your unique
                   traits and life path.
                 </p>
-              </div> 
+              </div>
               <div>
                 <div className="flex items-center">
                   <Image
@@ -298,11 +303,11 @@ export default function Home() {
                     Sun Sign Match
                   </h3>
                 </div>
-                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65 pl-3">
+                <p className="text-xs leading-5 text-[#e8dcc8]/65 pl-3">
                   Discover your compatibility with others and find your ideal
                   connections.
                 </p>
-              </div> 
+              </div>
               <div>
                 <div className="flex items-center">
                   <Image
@@ -315,8 +320,8 @@ export default function Home() {
                   <h3 className="text-sm font-semibold text-[#e8dcc8]">
                     Premium Insights
                   </h3>
-                </div> 
-                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65 pl-3">
+                </div>
+                <p className="text-xs leading-5 text-[#e8dcc8]/65 pl-3">
                   Unlock deep understanding of career, love, and challenges with
                   advanced astrological data.
                 </p>
@@ -326,7 +331,7 @@ export default function Home() {
         </div>
       </div>
       {/* Lower feature cards */}
-      <div className="hidden md:block absolute left-2 bottom-[-135px] w-[280px] rounded-xl border-2 border-white/80 bg-white/10 px-3 py-4 backdrop-blur mt-10">
+      <div className="hidden md:block absolute left-2 bottom-[-120px] w-[280px] rounded-xl border-2 border-white/80 bg-white/10 px-3 py-4 backdrop-blur mt-10">
         <div className="flex items-start gap-3">
           <div className="grid h-10 w-15 place-items-center rounded-full border-2 border-white/80 font-semibold text-[#FFFFFF]">
             E

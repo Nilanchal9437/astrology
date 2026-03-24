@@ -265,42 +265,58 @@ export default function Home() {
       </div>
       <div className="relative">
         <div className="bg-[#071226]/55 w-full h-full">
-          <Container className="py-5">
+          <Container className="pt-8 pb-10">
             <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4 lg:max-w-4xl mx-auto">
-              <div className="p-5">
-                <h3 className="flex items-center gap-3 text-sm font-semibold text-[#e8dcc8]">
-                  <span className="grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-white/5 text-[#f5d06c]">
-                    ✦
-                  </span>
-                  Personalized Report
-                </h3>
-                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65">
+              <div>
+                <div className="flex items-center">
+                  <Image
+                    src="/document-icon.png"
+                    alt="document-icon"
+                    height={50}
+                    width={50}
+                    className="h-15 w-15 rounded-full"
+                  />
+                  <h3 className="text-sm font-semibold text-[#e8dcc8]">
+                    Personalized Report
+                  </h3>
+                </div>
+                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65 pl-3">
                   Detailed analysis of your birth chart, uncovering your unique
                   traits and life path.
                 </p>
-              </div>
-
-              <div className="p-5">
-                <h3 className="flex items-center gap-3 text-sm font-semibold text-[#e8dcc8]">
-                  <span className="grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-white/5 text-[#f5d06c]">
-                    ⊙
-                  </span>
-                  Sun Sign Match
-                </h3>
-                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65">
+              </div> 
+              <div>
+                <div className="flex items-center">
+                  <Image
+                    src="/sun.png"
+                    alt="sun-icon"
+                    height={50}
+                    width={50}
+                    className="h-15 w-15 rounded-full p-2"
+                  />
+                  <h3 className="text-sm font-semibold text-[#e8dcc8]">
+                    Sun Sign Match
+                  </h3>
+                </div>
+                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65 pl-3">
                   Discover your compatibility with others and find your ideal
                   connections.
                 </p>
-              </div>
-
-              <div className="p-5">
-                <h3 className="flex items-center gap-3 text-sm font-semibold text-[#e8dcc8]">
-                  <span className="grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-white/5 text-[#f5d06c]">
-                    ✶
-                  </span>
-                  Premium Insights
-                </h3>
-                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65">
+              </div> 
+              <div>
+                <div className="flex items-center">
+                  <Image
+                    src="/diamond-emblem.png"
+                    alt="sun-icon"
+                    height={50}
+                    width={50}
+                    className="h-15 w-15 rounded-full p-2"
+                  />
+                  <h3 className="text-sm font-semibold text-[#e8dcc8]">
+                    Premium Insights
+                  </h3>
+                </div> 
+                <p className="mt-3 text-xs leading-5 text-[#e8dcc8]/65 pl-3">
                   Unlock deep understanding of career, love, and challenges with
                   advanced astrological data.
                 </p>
@@ -310,7 +326,7 @@ export default function Home() {
         </div>
       </div>
       {/* Lower feature cards */}
-      <div className="hidden md:block absolute left-2 bottom-[-135px] w-[310px] rounded-xl border-2 border-white/80 bg-white/10 px-3 py-4 backdrop-blur mt-10">
+      <div className="hidden md:block absolute left-2 bottom-[-135px] w-[280px] rounded-xl border-2 border-white/80 bg-white/10 px-3 py-4 backdrop-blur mt-10">
         <div className="flex items-start gap-3">
           <div className="grid h-10 w-15 place-items-center rounded-full border-2 border-white/80 font-semibold text-[#FFFFFF]">
             E

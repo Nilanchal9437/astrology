@@ -337,7 +337,7 @@ export default function Home() {
               </span>{" "}
               <span className="font-semibold  text-white">Leo</span> Full Report
             </div>
-            <div className="mt-1 text-[11px] text-sm text-white">
+            <div className="mt-1 text-[11px] text-sm text-white/50">
               2 minutes ago
             </div>
           </div>
